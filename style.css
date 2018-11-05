@@ -1,0 +1,14 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.boxed{
+    border: solid 2px lightblue;
+    margin: 2px;
+    float: left;
+    width: 400px;
+    padding: 2rem;
+    background-color: lightblue;
+}
