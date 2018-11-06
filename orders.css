@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+}
+.boxed{
+    margin: 2px;
+    border: 2px solid lightblue;
+    width: 700px;
+}
+.table, th,td {
+    border: 1px solid gray;
+    width: 10%;
+    height: 40px;
+    text-align: justify;
+    padding: 2rem;
+    
+    
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+}
+.boxed{
+    margin: 2rem;
+    border: 1px solid;
+    padding: 3rem;
+    width: 400px;
+    background-color: steelblue;
+}
