@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="add.css">
+        <meta name="viewport" content="width = device-widith, initial-scale =1.0">
+        <style>
+            .example{
+                color: lightblue;
+            }
+            /* Extra small devices*/
+            @media only screen and (max-width:600px){
+                .example {background-color: lightskyblue;}
+            }
+            /* small devices*/
+            @media only screen and (min-width:600px){
+                .example {background-color: lightskyblue;}
+            }
+            /* Medium devices*/
+            @media only screen and (min-width:768px){
+                .example {background-color: lightskyblue;}
+            }
+            /*Large Devices*/
+            @media only screen and (min-width:992px){
+                .example {background-color: lightskyblue;}
+            }
+            /*Extra Devices*/
+            @media only screen and (min-width:1200px){
+                .example {background-color: lightskyblue;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <ul>
+                <li><a href="orders.html"><button id="wrk">Back</button></a></li>
+            </ul>
+        </div>
+
+        <div class="boxed">
+          <h1>Add parcel delivery order</h1>
+            <input id="data" type="text" placeholder="Reciever's Name"><br><br>
+            <input id="data" type="text" placeholder="Pick up location"><br><br>
+            <input id="data" type="text" placeholder="Destination"><br><br>
+            <input id="data" type="text" placeholder="Price"><br><br> 
+            <form action="orders.html">
+            <button type="submit">Add</button>
+            </form> 
+        </div>
+    </body>
+</html>
