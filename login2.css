@@ -1,0 +1,27 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.boxed{
+    border: solid 2px lightblue;
+    margin: 2px;
+    float: left;
+    width: 450px;
+    padding: 2rem;
+    text-align: center;
+    background-color: lightblue;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    
+}
+#data{
+    width: 350px;
+    height:40px;
+}
+#wrk{
+    width: 50px;
+    height: 35px;
+}
