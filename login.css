@@ -8,7 +8,15 @@ body{
     border: solid 2px lightblue;
     margin: 2px;
     float: left;
-    width: 350px;
+    width: 400px;
     padding: 2rem;
     background-color: lightblue;
+    text-align: center;
+    position:absolute;
+    top: 10%;
+    left: 30%;
+}
+#data{
+    width: 350px;
+    height:40px;
 }
