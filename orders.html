@@ -1,36 +1,77 @@
 <html>
     <head>
         <link rel="stylesheet" href="orders.css">
+        <meta name="viewport" content="width = device-widith, initial-scale =1.0">
+        <style>
+            .example{
+                color: lightblue;
+            }
+            /* Extra small devices*/
+            @media only screen and (max-width:600px){
+                .example {background-color: lightskyblue;}
+            }
+            /* small devices*/
+            @media only screen and (min-width:600px){
+                .example {background-color: lightskyblue;}
+            }
+            /* Medium devices*/
+            @media only screen and (min-width:768px){
+                .example {background-color: lightskyblue;}
+            }
+            /*Large Devices*/
+            @media only screen and (min-width:992px){
+                .example {background-color: lightskyblue;}
+            }
+            /*Extra Devices*/
+            @media only screen and (min-width:1200px){
+                .example {background-color: lightskyblue;}
+            }
+
+        </style>
     </head>
     <body>
+        <h1><i>Parcel Delivery Orders</i></h1>
+        <div class="topnav">
+            <ul>
+                <li><a href="login.html"><button id="wrk">Logout</button></a></li>
+                <li><a href="add.html"><button id="wrk">Add Order</button></a></li>
+                <li><a href="login2.html"><button id="wrk">Admin</button></a></li>
+                
+            </ul>
+        </div>
         <div class="boxed">
             <table>
                 <tr>
                     <th>Reciever's Name</th>
                     <th>Pick up Location</th>
                     <th>Destination</th>
-                    <th>Price</th>               
+                    <th>Price</th>
+                    <th>Status</th>
+                    <th>Modification</th>              
                 </tr>
                 <tr>
                     <td>Bukenya Kenneth</td>
                     <td>Maritime warehouse</td>
                     <td>Gaza Land L223</td>
                     <td>$25</td>
-                    <td><button type="submit">Cancel Order</button><p><form action="edit.html"><button type="submit">Edit</button></form></td>
+                    <td>Delivered</td>
+                    <td><form action="edit.html"><button type="submit">Edit</button></form><p><button type="submit">Cancel</button></td>
                 </tr>
                 <tr>
                     <td>Joy Amaral</td>
                     <td>Beauty Corner Avemar</td>
                     <td>Bell Weather Apartments L22</td>
                     <td>$10</td>
-                    <td><button type="submit">Cancel Order</button><p><form action="edit.html"><button type="submit">Edit</button></form></td>
+                    <td>Transit</td>
+                    <td><form action="edit.html"><button type="submit">Edit</button></form><p><button type="submit">Cancel</button></td>
                 </tr>
                 <tr>
                     <td>Ruth Catherine</td>
                     <td>Hot loaf Jinja road</td>
                     <td>Erima Hostel Kyambogo</td>
                     <td>$10</td>
-                    <td><button type="submit">Cancel Order</button><p><form action="edit.html"><button type="submit">Edit</button></form></td>
+                    <td>Start</td>
+                    <td><form action="edit.html"><button type="submit">Edit</button><p><button type="submit">Cancel</button></td>
                 </tr>
             </table>
         </div>

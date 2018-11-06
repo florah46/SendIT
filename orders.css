@@ -1,17 +1,37 @@
 body{
     background-color: lightblue;
+    text-align: center;
+}
+.topnav ul li{
+    float: right;
+    text-decoration: none;
+    font-size: 80px;
+    display: block;
 }
 .boxed{
     margin: 2px;
     border: 2px solid lightblue;
     width: 700px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    
+}
+.table, th{
+    background-color: mediumslateblue;
 }
 .table, th,td {
     border: 1px solid gray;
-    width: 10%;
-    height: 40px;
+    width: 20%;
+    height: 20px;
     text-align: justify;
     padding: 2rem;
-    
-    
+    text-align: left;  
 }
+.table, td{
+    background-color: lightsteelblue;
+}
+#wrk{
+    width: 70px;
+    height: 35px;
+} 
